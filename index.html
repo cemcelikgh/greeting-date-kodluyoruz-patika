@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <title>Bugün</title>
+  </head>
+  <body class="bg-dark">
+    <div class="text-center">
+      <img class="img-kodluyoruz" src="assets\kodluyoruz.png" alt="kodluyoruz" />
+      <div class="text-welcome text-center">
+        Merhaba <strong><span id="guestName"></span></strong>, bugün:
+      </div>
+      <div class="text-style patika-blue text-center">
+        Miladi <span id="gregorian-date"></span>
+      </div>
+      <div class="text-style patika-yellow text-center">
+        Hicri <span id="hijri-date"></span>
+      </div>
+      <div class="text-style">
+        Günlerden <strong><span class="patika-blue" id="today"></span></strong></br>
+        Saat <strong><span class="patika-yellow" id="clock"></span></strong>
+      </div>
+      <img class="img-patika" src="assets\patika.png" alt="patika" />
+    </div>
+    <script src="js\hijricalendar-kuwaiti_tr.js"></script>
+    <script src="js\moment-with-locales.js"></script>
+    <script src="js\today.js"></script>
+  </body>
+</html>
