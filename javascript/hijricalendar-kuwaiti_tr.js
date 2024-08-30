@@ -1,5 +1,3 @@
-//	https://www.al-habib.info/islamic-calendar/hijricalendartext.htm
-
 function gmod(n,m){
 	return ((n%m)+m)%m;
 }
@@ -87,9 +85,9 @@ function kuwaiticalendar(adjust){
 	return myRes;
 }
 function writeIslamicDate(adjustment) {
-	var wdNames = new Array("Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi");
-	var iMonthNames = new Array("Muharrem","Safer","Rebiülevvel","Rebiülahir","Cemaziyelevvel","Cemaziyelahir","Recep","Şaban","Ramazan","Şevval","Zilkade","Zilhicce");
-	var iDate = kuwaiticalendar(adjustment);
-	var outputIslamicDate = `${iDate[5]} ${iMonthNames[iDate[6]]} ${iDate[7]}`
-	return outputIslamicDate;
+	var turkceDayNames = new Array("Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi");
+	var turkceIslamicMonthNames = new Array("Muharrem","Safer","Rebiülevvel","Rebiülahir","Cemaziyelevvel","Cemaziyelahir","Recep","Şaban","Ramazan","Şevval","Zilkade","Zilhicce");
+	var hijriDate = kuwaiticalendar(adjustment);
+	var outputHijriDate = `${hijriDate[5]} ${turkceIslamicMonthNames[hijriDate[6]]} ${hijriDate[7]}`
+	return outputHijriDate;
 }

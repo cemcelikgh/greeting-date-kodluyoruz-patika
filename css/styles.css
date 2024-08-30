@@ -1,0 +1,43 @@
+body {
+  background-color: #0D1117;
+}
+
+.container {
+  margin-top: 10vh;
+}
+
+.welcome-heading {
+  position: relative;
+  text-align: center;
+  color: #54AEFF;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 7px;
+}
+
+.text-style {
+  position: relative;
+  text-align: center;
+  color: #C9D1D9;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 7px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.github-purple {
+  color: #D2A8FF;
+}
+
+.github-green {
+  color: #7EE787;
+}
+
+.github-blue {
+  color: #79C0FF;
+}
+
+.github-light-blue {
+  color: #A4D5FE;
+}

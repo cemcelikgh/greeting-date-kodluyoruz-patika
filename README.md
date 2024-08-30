@@ -1,6 +1,9 @@
-# greeting-date-kodluyoruz-patika
-Patika.dev JavaScript Ödev 1
+# greeting-with-calendar
+Patika Beginner Frontend Web Development Path Certification Task
+<br>Greeting with Calendar
 
-https://www.patika.dev https://kodluyoruz.org
+Warning: The Hijri date shows a 1-day deviation. The task didn't include a hijri date and I will not use those codes in any other project, so I didn't dwell on it.
 
-![greeting_date-kodluyoruz-patika](https://images2.imgbox.com/6f/d7/28YIDvTh_o.jpg)
+Browse: <https://cemcelikgh.github.io/greeting-with-calendar/>
+
+[![Greeting with Calendar Preview](./assets/greeting-with-calendar-preview.jpg "Browse Greeting with Calendar")](https://cemcelikgh.github.io/greeting-with-calendar/)
